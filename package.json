@@ -1,0 +1,17 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "just for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Joshua Uyi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
