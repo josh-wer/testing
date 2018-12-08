@@ -16,7 +16,7 @@ describe('TestTest', function(){
 
 
 	it('should say hi to name', function(){
-		assert.equal(sayHi('johns'), 'Hi john');
+		assert.equal(sayHi('johnsd'), 'Hi john');
 	});
 });
 
