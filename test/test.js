@@ -1,4 +1,5 @@
 var assert = require('assert');
+var coveralls = require('coveralls');
 
 
 describe('Array', function() {
