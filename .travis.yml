@@ -8,7 +8,4 @@ before_install:
   - pip install --user codecov
 after_success:
   - npm run coveralls
-  - codecov --file coverage/lcov.info --disable search
-  - ./node_modules/.bin/jscoverage lib lib-cov
-  - ./node_modules/.bin/mocha test/**.js -R mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js
   
